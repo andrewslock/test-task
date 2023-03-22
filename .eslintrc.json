@@ -1,0 +1,12 @@
+{
+    "extends": "airbnb/base",
+    "rules": {
+        "import/extensions": [0, {
+            ".js": "never"
+        }],
+        "no-console": [0]
+    },
+    "env": {
+        "jest": true
+    }
+}
