@@ -18,5 +18,5 @@ export default async (fileName) => {
   const result = calculateFee(inputData, config);
 
   console.info('Outputting result...');
-  result.forEach((fee) => console.log(fee));
+  result.map((number) => number.toFixed(2)).forEach((fee) => console.log(fee));
 };
